@@ -1,6 +1,6 @@
 <h2 align="center">text effect</h2>
 
-vidoe 
+video ⇩
 [![video](./view/view2.jpg)](./view/view.mp4)
 
 
