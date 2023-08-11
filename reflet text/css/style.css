@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #191919;
+  color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 50px;
+  position: relative;
+  font-size: 80px;
+}
+
+h1::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: bottom;
+  transform: rotateX(180deg);
+  line-height: 70px;
+  background: linear-gradient(to top, #fff, transparent);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0.4;
+}
